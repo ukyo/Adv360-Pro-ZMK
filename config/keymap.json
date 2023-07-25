@@ -6,12 +6,13 @@
     "base",
     "keypad",
     "fn",
-    "mod"
+    "mod",
+    "Layer #4"
   ],
   "layers": [
     [
               "&kp GRAVE",       "&kp N1",         "&kp N2",   "&kp N3",    "&kp N4", "&kp N5",              "&tog 1",                                                                                              "&mo 3", "&kp N6",               "&kp N7",                "&kp N8",   "&kp N9",   "&kp N0",     "&mo 2",
-                "&kp TAB",        "&kp Q",          "&kp W",    "&kp E",     "&kp R",  "&kp T",              "&kp F2",                                                                                              "&mo 1",  "&kp Y",                "&kp U",                 "&kp I",    "&kp O",    "&kp P",  "&kp BSLH",
+                "&kp TAB",        "&kp Q",          "&kp W",    "&kp E",     "&kp R",  "&kp T",              "&kp F2",                                                                                             "&tog 4",  "&kp Y",                "&kp U",                 "&kp I",    "&kp O",    "&kp P",  "&kp BSLH",
        "&kp LEFT_CONTROL",        "&kp A",          "&kp S",    "&kp D",     "&kp F",  "&kp G",             "&kp F12",  "&kp LCTRL",   "&kp LEFT_SHIFT",                      "&kp TAB", "&kp RIGHT_SHIFT",        "&tog 1",  "&kp H",                "&kp J",                 "&kp K",    "&kp L", "&kp SEMI",   "&kp SQT",
               "&kp LSHFT",        "&kp Z",          "&kp X",    "&kp C",     "&kp V",  "&kp B",                                      "&kp LEFT_COMMAND",                     "&kp HOME",                                      "&kp N",                "&kp M",             "&kp COMMA",  "&kp DOT", "&kp FSLH", "&kp MINUS",
                 "&kp F20", "&kp UP_ARROW", "&kp DOWN_ARROW", "&kp LEFT", "&kp RIGHT",                     "&kp SPACE", "&kp ESCAPE",     "&kp LEFT_ALT",                      "&kp END",       "&kp ENTER", "&kp BACKSPACE",           "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS", "&kp LBKT", "&kp RBKT", "&kp EQUAL"
@@ -33,6 +34,12 @@
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                 "&none",  "&none",  "&none",                     "&bt BT_CLR",      "&none", "&rgb_ug RGB_MEFS_CMD 5",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                                     "&none",                          "&none",                                          "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",                                 "&none",  "&none",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",           "&bl BL_INC", "&bl BL_DEC",  "&none",  "&none",  "&none"
+    ], [
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans",    "&trans",          "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans",    "&trans",          "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",    "&trans",          "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&kp SLASH", "&kp RIGHT_SHIFT",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",    "&trans",          "&trans"
     ]
   ]
 }
